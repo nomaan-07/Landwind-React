@@ -19,4 +19,4 @@ Welcome to the **Landwind** landing page! This project showcases my web developm
 
 ## Live Demos 🌐
 
-- [Landwind (GitHub)](https://nomaan-07.github.io/Landwind-react)
+- [Landwind (GitHub)](https://nomaan-07.github.io/Landwind-React)
