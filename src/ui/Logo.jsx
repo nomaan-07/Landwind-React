@@ -6,7 +6,7 @@ function Logo() {
     >
       <img src="./images/app-logo.png" alt="app logo" />
 
-      <span className="text-xl font-semibold delay-75 duration-150 md:hover:text-purple-600 lg:text-2xl">
+      <span className="cursor-default text-xl font-semibold delay-75 duration-150 md:cursor-pointer md:hover:text-purple-600 lg:text-2xl">
         Landwind
       </span>
     </a>

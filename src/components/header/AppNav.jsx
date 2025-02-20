@@ -1,6 +1,6 @@
-import Logo from "./Logo";
+import Logo from "../../ui/Logo";
 import NavMenu from "./NavMenu";
-import Button from "./Button";
+import Button from "../../ui/Button";
 
 function AppNav() {
   return (

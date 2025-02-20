@@ -1,8 +1,8 @@
-import Overlay from "./components/Overlay";
+import Overlay from "./ui/Overlay";
 import { ToggleMenuProvider } from "./contexts/ToggleMenuContext";
 import HomePage from "./pages/HomePage";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 
 function App() {
   return (

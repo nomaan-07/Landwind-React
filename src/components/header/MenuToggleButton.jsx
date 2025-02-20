@@ -1,4 +1,4 @@
-import { useToggleMenu } from "../hooks/useToggleMenu";
+import { useToggleMenu } from "../../hooks/useToggleMenu";
 
 function MenuToggleButton() {
   const { isOpen, toggleOpen } = useToggleMenu();
