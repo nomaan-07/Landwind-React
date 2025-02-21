@@ -5,22 +5,22 @@ const items = [
   {
     id: 1,
     name: "Company",
-    link: "#",
+    url: "#",
   },
   {
     id: 2,
     name: "Marketplace",
-    link: "#",
+    url: "#",
   },
   {
     id: 3,
     name: "Features",
-    link: "#",
+    url: "#",
   },
   {
     id: 4,
     name: "Team",
-    link: "#",
+    url: "#",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ function NavMenu({ type }) {
       >
         {items.map((item) => (
           <li className="w-full text-center" key={item.id}>
-            <a className="cursor-default" href={item.link}>
+            <a className="cursor-default" href={item.url}>
               {item.name}
             </a>
           </li>
@@ -57,7 +57,7 @@ function NavMenu({ type }) {
           className="cursor-pointer transition-colors delay-75 hover:text-purple-600"
           key={item.id}
         >
-          <a href={item.link}>{item.name}</a>
+          <a href={item.url}>{item.name}</a>
         </li>
       ))}
     </ul>
