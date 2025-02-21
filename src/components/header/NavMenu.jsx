@@ -35,7 +35,7 @@ function NavMenu({ type }) {
   if (type === "mobile")
     return (
       <ul
-        className={`absolute left-0 right-0 top-16 -z-10 flex w-full flex-col items-center gap-5 rounded-b-lg bg-white py-5 font-semibold text-purple-600 transition-all duration-300 ${isOpen ? "translate-x-0" : "translate-x-[100dvh]"}`}
+        className={`absolute left-0 right-0 top-16 -z-10 flex w-full flex-col items-center gap-5 rounded-b-lg bg-white py-5 font-semibold text-purple-600 transition-all duration-300 ${isOpen ? "translate-x-0" : "translate-x-[100%]"}`}
       >
         {items.map((item) => (
           <li className="w-full text-center" key={item.id}>

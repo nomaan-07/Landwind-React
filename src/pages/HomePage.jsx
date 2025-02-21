@@ -2,6 +2,7 @@ import FeaturesSections from "../components/home-page/features-section/FeaturesS
 import Hero from "../components/home-page/hero/Hero";
 import Logos from "../components/home-page/logos/Logos";
 import SocialProof from "../components/home-page/social-proof/SocialProof";
+import Testimony from "../components/home-page/testimony/Testimony";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <Logos />
       <FeaturesSections />
       <SocialProof />
+      <Testimony />
     </main>
   );
 }
