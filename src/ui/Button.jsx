@@ -1,7 +1,6 @@
-function Button({ type, children }) {
+function Button({ type, className = "", children }) {
   // Types: primary - small - secondary - card
-  const baseStyles =
-    "rounded-lg font-medium text-center transition-colors delay-75 duration-150 cursor-default md:cursor-pointer";
+  const baseStyles = `rounded-lg font-medium text-center transition-colors delay-75 duration-150 cursor-default md:cursor-pointer ${className}`;
   const mainStyles = `${baseStyles} bg-purple-600 text-white md:hover:bg-purple-700`;
 
   const combinedStyles = {

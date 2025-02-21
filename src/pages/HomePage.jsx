@@ -1,3 +1,4 @@
+import CTA from "../components/home-page/CTA/CTA";
 import FAQ from "../components/home-page/FAQ/FAQ";
 import FeaturesSections from "../components/home-page/features-section/FeaturesSections";
 import Hero from "../components/home-page/hero/Hero";
@@ -16,6 +17,7 @@ function HomePage() {
       <Testimony />
       <Pricing />
       <FAQ />
+      <CTA />
     </main>
   );
 }
