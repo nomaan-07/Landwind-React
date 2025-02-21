@@ -4,26 +4,26 @@ const socials = [
   {
     id: 1,
     url: "#",
-    color: "#333",
-    icon: "github",
+    hoverColorClass: "md:hover:text-[#333]",
+    name: "github",
   },
   {
     id: 2,
     url: "#",
-    color: "#1DA1F2",
-    icon: "twitter",
+    hoverColorClass: "md:hover:text-[#1DA1F2]",
+    name: "twitter",
   },
   {
     id: 3,
     url: "#",
-    color: "#ea4c89",
-    icon: "dribbble",
+    hoverColorClass: "md:hover:text-[#ea4c89]",
+    name: "dribbble",
   },
   {
     id: 4,
     url: "#",
-    color: "#1877F2",
-    icon: "facebook",
+    hoverColorClass: "md:hover:text-[#1877F2]",
+    name: "facebook",
   },
 ];
 
@@ -33,8 +33,8 @@ function FooterSocials() {
       {socials.map((social) => (
         <a href={social.url} key={social.id}>
           <Icon
-            className={`size-6 transition-all md:hover:text-[${social.color}]`}
-            icon={social.icon}
+            className={`size-6 transition-all ${social.hoverColorClass}`}
+            icon={social.name}
           ></Icon>
         </a>
       ))}
