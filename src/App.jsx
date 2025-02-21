@@ -3,6 +3,7 @@ import { ToggleMenuProvider } from "./contexts/ToggleMenuContext";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
+import BackToTop from "./ui/BackToTop";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HomePage />
       <Footer></Footer>
+      <BackToTop />
       <Overlay />
     </ToggleMenuProvider>
   );
